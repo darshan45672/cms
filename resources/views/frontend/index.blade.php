@@ -123,15 +123,15 @@
       <div class="col-lg-6">
         <div data-scroll data-scroll-speed="-0.5">
           <div class="side-content left">
-            <h6>AAKAR 2023</h6>
+            <h6>AAKAR 2024</h6>
             <h2>Auroras of Adventure!</h2>
             <p style="font-weight:normal">Set your sights on the horizon and join us as A J Institute of
               Engineering & Technology, Mangaluru proudly presents the fifth edition of its
-              Intercollegiate Techno-Cultural Fest, "AJIET AAKAR-2023", with an enthralling theme of
+              Intercollegiate Techno-Cultural Fest, "AJIET AAKAR-2024", with an enthralling theme of
               "Auroras of Adventure". Prepare for an extraordinary experience as we embark on this
-              adventure on the 24<sup>th</sup> and 25<sup>th</sup> of March 2023, amidst the captivating
+              adventure on the 29<sup>th</sup> and 30<sup>th</sup> of April 2024, amidst the captivating
               backdrop of the AJIET Campus.<br><br>
-              The theme "Auroras of Adventure" serves as the guiding beacon for AJIET AAKAR-2023,
+              The theme "Auroras of Adventure" serves as the guiding beacon for AJIET AAKAR-2024,
               providing students with a platform to showcase their technical and cultural talents in a
               thrilling and adventurous environment. As participants, students will have the opportunity
               to receive constructive feedback from industry experts and a spirited audience, igniting
@@ -426,9 +426,9 @@
       <div class="col-lg-6">
         <div data-scroll data-scroll-speed="-0.5">
           <div class="side-content right light">
-            <h3 class="countdownHeading">Celebrate<br>Aakar 2023 !!<br></h3>
-            <p>Mark your calendars for the highly anticipated Aakar 2023 Inter-Collegiate Techno-Cultural
-              Fest, taking place on March 24th, 2023 and March 25th, 2023. Join us for two unforgettable
+            <h3 class="countdownHeading">Celebrate<br>Aakar 2024 !!<br></h3>
+            <p>Mark your calendars for the highly anticipated Aakar 2024 Inter-Collegiate Techno-Cultural
+              Fest, taking place on April 29th, 2024 and April 29th, 2024. Join us for two unforgettable
               days of innovation, culture, and entertainment!
               <br><br>We eagerly anticipate your presence and look forward to meeting you soon!
             </p>
