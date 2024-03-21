@@ -11,15 +11,15 @@
 
   <!-- The HTML5 video element that will create the background video on the header -->
   <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="frontend/videos/mysore1.mp4" type="video/mp4">
+    <source src="frontend/videos/9teen.mp4" type="video/mp4">
   </video>
 
   <!-- The header content -->
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        {{-- <h1 class="display-3">Mysore Express</h1> --}}
-        <img src="frontend/images/mysore_express_logo.png" width="400" alt="">
+        <h1 class="display-3"><i>The 9 Teen</i></h1>
+        {{-- <img src="frontend/images/mysore_express_logo.png" width="400" alt=""> --}}
         <p class="lead mb-0" id="header-caption"></p>
       </div>
     </div>
