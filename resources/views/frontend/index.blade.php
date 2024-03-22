@@ -4,22 +4,22 @@
 
 @section('content')
 
-<header class="{{ $headerClass=" video" }}">
+<header class="{{ $headerClass=" video" }} mt-4">
 
   <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
   <div class="overlay"></div>
 
   <!-- The HTML5 video element that will create the background video on the header -->
-  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-    <source src="frontend/videos/mysore1.mp4" type="video/mp4">
+  <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop" >
+    <source src="frontend/videos/9teen.mp4" type="video/mp4">
   </video>
 
   <!-- The header content -->
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        {{-- <h1 class="display-3">Mysore Express</h1> --}}
-        <img src="frontend/images/mysore_express_logo.png" width="400" alt="">
+        <h1 class="display-3"><i>The 9 Teen</i></h1>
+        {{-- <img src="frontend/images/mysore_express_logo.png" width="400" alt=""> --}}
         <p class="lead mb-0" id="header-caption"></p>
       </div>
     </div>
@@ -123,15 +123,15 @@
       <div class="col-lg-6">
         <div data-scroll data-scroll-speed="-0.5">
           <div class="side-content left">
-            <h6>AAKAR 2023</h6>
+            <h6>AAKAR 2024</h6>
             <h2>Auroras of Adventure!</h2>
             <p style="font-weight:normal">Set your sights on the horizon and join us as A J Institute of
               Engineering & Technology, Mangaluru proudly presents the fifth edition of its
-              Intercollegiate Techno-Cultural Fest, "AJIET AAKAR-2023", with an enthralling theme of
+              Intercollegiate Techno-Cultural Fest, "AJIET AAKAR-2024", with an enthralling theme of
               "Auroras of Adventure". Prepare for an extraordinary experience as we embark on this
-              adventure on the 24<sup>th</sup> and 25<sup>th</sup> of March 2023, amidst the captivating
+              adventure on the 29<sup>th</sup> and 30<sup>th</sup> of April 2024, amidst the captivating
               backdrop of the AJIET Campus.<br><br>
-              The theme "Auroras of Adventure" serves as the guiding beacon for AJIET AAKAR-2023,
+              The theme "Auroras of Adventure" serves as the guiding beacon for AJIET AAKAR-2024,
               providing students with a platform to showcase their technical and cultural talents in a
               thrilling and adventurous environment. As participants, students will have the opportunity
               to receive constructive feedback from industry experts and a spirited audience, igniting
@@ -426,9 +426,9 @@
       <div class="col-lg-6">
         <div data-scroll data-scroll-speed="-0.5">
           <div class="side-content right light">
-            <h3 class="countdownHeading">Celebrate<br>Aakar 2023 !!<br></h3>
-            <p>Mark your calendars for the highly anticipated Aakar 2023 Inter-Collegiate Techno-Cultural
-              Fest, taking place on March 24th, 2023 and March 25th, 2023. Join us for two unforgettable
+            <h3 class="countdownHeading">Celebrate<br>Aakar 2024 !!<br></h3>
+            <p>Mark your calendars for the highly anticipated Aakar 2024 Inter-Collegiate Techno-Cultural
+              Fest, taking place on April 29th, 2024 and April 29th, 2024. Join us for two unforgettable
               days of innovation, culture, and entertainment!
               <br><br>We eagerly anticipate your presence and look forward to meeting you soon!
             </p>
@@ -461,38 +461,6 @@
           </div>
           <!-- end side-content -->
           <!-- Display the countdown timer in an element -->
-<p id="counter"></p>
-
-<script>
-// Set the date we're counting down to
-var countDownDate = new Date("2024, 4, 29").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
-
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in the element with id="demo"
-  document.getElementById("counter").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("counter").innerHTML = "EXPIRED";
-  }
-}, 1000);
-</script>
         </div>
         <!-- end data-scroll -->
       </div>

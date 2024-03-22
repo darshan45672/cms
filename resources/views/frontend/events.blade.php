@@ -129,6 +129,7 @@
                             @endif
                         @endforeach
                     </ul>
+                    <hr>
                 </div>
             </div>
         </div>
