@@ -19,7 +19,7 @@
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
         {{-- <h1 class="display-3"><i>The 9 Teen</i></h1> --}}
-        <img src="frontend/images/mysore_express_logo.png" width="400" alt="">
+        {{-- <img src="frontend/images/mysore_express_logo.png" width="400" alt=""> --}}
         <p class="lead mb-0" id="header-caption"></p>
       </div>
     </div>
