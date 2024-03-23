@@ -157,6 +157,7 @@
   {{-- tidio --}}
   <script src="//code.tidio.co/byzscpvhtcppdtihc0nmosmfksozmg8z.js" async></script>
   @yield('scripts')
+  @livewireScripts
 </body>
 
 </html>

@@ -1,4 +1,4 @@
-<!-- <nav class="navbar pinned {{isset($varient)? $varient:'dark'}}" id="navbar"> -->
+ {{-- <nav class="navbar pinned {{isset($varient)? $varient:'dark'}}" id="navbar">  --}}
 <nav class="navbar pinned " id="navbar">
   <div class="container">
     <div class="logo"> <a href="{{route('index')}}"> <img src="{{asset('frontend/images/logo2023.webp')}}" alt="Image"> </a> </div>
