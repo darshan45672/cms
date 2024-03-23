@@ -18,8 +18,8 @@
   <div class="container h-100">
     <div class="d-flex h-100 text-center align-items-center">
       <div class="w-100 text-white">
-        <h1 class="display-3"><i>The 9 Teen</i></h1>
-        {{-- <img src="frontend/images/mysore_express_logo.png" width="400" alt=""> --}}
+        {{-- <h1 class="display-3"><i>The 9 Teen</i></h1> --}}
+        <img src="frontend/images/mysore_express_logo.png" width="400" alt="">
         <p class="lead mb-0" id="header-caption"></p>
       </div>
     </div>
@@ -413,7 +413,7 @@
     <div class="row align-items-center">
       <div class="col-lg-6">
         <div data-scroll data-scroll-speed="0.5">
-          <img src="frontend/images/Aakar2023Logo.png">
+          <img src="frontend/images/aakar2024.png">
 
           {{-- <video loop class="side-image" autoplay muted>
             <source src="frontend/images/celebrateAakar.mp4" type="video/mp4">
