@@ -328,3 +328,18 @@
 
 
 })(jQuery);
+
+document.addEventListener("DOMContentLoaded", function() {
+  window.addEventListener('scroll', function() {
+      var headerHeight = document.querySelector('header').offsetHeight;
+      var navbar = document.getElementById('navbar');
+
+      if (window.scrollY >= headerHeight) {
+          navbar.classList.remove('transparent');
+          navbar.classList.add('dark');
+      } else {
+          navbar.classList.remove('dark');
+          navbar.classList.add('transparent');
+      }
+  });
+});
