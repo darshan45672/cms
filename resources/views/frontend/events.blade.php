@@ -19,13 +19,13 @@
                     <h2 class="event-heading">Mega Events</h2>
                     <ul class="events-grid">
                         @foreach ($events as $event)
-                            @if ($event->event_type_id == 8)
+                            @if ($event->event_type_id == 3)
                                 <li class="grid-item" data-scroll data-scroll-speed="-0.5">
 
 
                                     <div class="event-box m-4">
 
-                                        {{-- <img src="{{$event->img ? Storage::url($event->img) : '' }}" alt="Image"/> --}}
+                                        <img src="{{$event->img ? Storage::url($event->img) : '' }}" alt="Image"/>
 
                                         <div class="content-box">
                                             <span>{{$event->date->isoFormat('DD-MM-YYYY')}}</span>
@@ -57,13 +57,13 @@
                     <h2 class="event-heading">General Events</h2>
                     <ul class="events-grid">
                         @foreach ($events as $event)
-                            @if ($event->event_type_id == 6)
+                            @if ($event->event_type_id == 1)
                                 <li class="grid-item" data-scroll data-scroll-speed="-0.5">
 
 
                                     <div class="event-box m-4">
 
-                                        {{-- <img src="{{$event->img ? Storage::url($event->img) : '' }}" alt="Image"/> --}}
+                                        <img src="{{$event->img ? Storage::url($event->img) : '' }}" alt="Image"/>
 
                                         <div class="content-box">
                                             <span>{{$event->date->isoFormat('DD-MM-YYYY')}}</span>
