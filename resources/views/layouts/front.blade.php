@@ -152,8 +152,6 @@
   <script src="{{asset('frontend/js/custom.js?v10')}}"></script>
   <script src="{{asset('frontend/js/closeMobileMenu.js?v4')}}"></script>
   <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-
-
   {{-- tidio --}}
   <script src="//code.tidio.co/byzscpvhtcppdtihc0nmosmfksozmg8z.js" async></script>
   @yield('scripts')
