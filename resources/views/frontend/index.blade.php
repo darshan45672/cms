@@ -127,7 +127,7 @@
               Engineering & Technology, Mangaluru proudly presents the fifth edition of its
               Intercollegiate Techno-Cultural Fest, "AJIET AAKAR-2024", with an enthralling theme of
               "Auroras of Adventure". Prepare for an extraordinary experience as we embark on this
-              adventure on the 29<sup>th</sup> and 30<sup>th</sup> of April 2024, amidst the captivating
+              adventure on the 08<sup>th</sup> and 09<sup>th</sup> of May 2024, amidst the captivating
               backdrop of the AJIET Campus.<br><br>
               The theme "Auroras of Adventure" serves as the guiding beacon for AJIET AAKAR-2024,
               providing students with a platform to showcase their technical and cultural talents in a
@@ -426,7 +426,7 @@
           <div class="side-content right light">
             <h3 class="countdownHeading">Celebrate<br>Aakar 2024 !!<br></h3>
             <p>Mark your calendars for the highly anticipated Aakar 2024 Inter-Collegiate Techno-Cultural
-              Fest, taking place on April 29th, 2024 and April 29th, 2024. Join us for two unforgettable
+              Fest, taking place on May 08th, 2024 and May 09th, 2024. Join us for two unforgettable
               days of innovation, culture, and entertainment!
               <br><br>We eagerly anticipate your presence and look forward to meeting you soon!
             </p>
