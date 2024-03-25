@@ -29,8 +29,8 @@
                             <h3>{{ $event->name }}</h3>
                             <ul class="infos">
                                 <li>
-                                    <figure><img src="{{ asset('frontend/images/icon-time.png') }}" alt="Image"></figure>
-                                    {{ $event->date->isoFormat('hh:mm a') }}<br>
+                                    <figure><img src="{{ asset('frontend/images/icon-time.png') }}" alt="Image" class=""></figure>
+                                    <span class="mx-2 mt-1">{{ $event->date->isoFormat('hh:mm a') }}</span><br>
                                 </li>
                                 @if ($event->location != null)
                                     <li>

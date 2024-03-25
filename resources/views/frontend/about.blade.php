@@ -25,9 +25,9 @@
                     <!-- end data-scroll -->
                 </div>
                 <!-- end col-12 -->
-                {{-- <iframe src="https://flipbookpdf.net/web/site/20ae392eee4189c652073101cd906e44692d619b202303.pdf.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; margin-bottom:5px; max-width: 100%; overflow: hidden; width: 599px; height: 487px;" allowfullscreen></iframe> --}}
+                {{-- <iframe src="https://flipbookpdf.net/web/site/d9e09bfee1e430f63665b6e2e24866c471df32a3202403.pdf.html" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; margin-bottom:5px; max-width: 100%; overflow: hidden; width: 599px; height: 487px;" allowfullscreen></iframe> --}}
                 {{-- <iframe allowfullscreen="allowfullscreen" class="fp-iframe" style="border: 1px solid lightgray; width: 80%; height:30rem ;" src="https://flipbookpdf.net/web/site/20ae392eee4189c652073101cd906e44692d619b202303.pdf.html"></iframe> --}}
-                {{-- <iframe src="https://publuu.com/flip-book/96773/265557/page/2?embed" width="70%" height="600rem"  frameborder="0" allowfullscreen="" class="publuuflip" scrolling="yes"></iframe> --}}
+                <iframe src="https://publuu.com/flip-book/444397/1002066" width="70%" height="600rem"  frameborder="0" allowfullscreen="" class="publuuflip" scrolling="yes"></iframe>
             </div>
             <!-- end row -->
         </div>
@@ -53,7 +53,7 @@
                             <p style="font-weight:normal">
                                 We are thrilled to announce the fifth edition of the Intercollegiate Techno-Cultural Fest
                                 "AJIET AAKAR-2024", organized by A J Institute of Engineering & Technology. The fest is
-                                scheduled to take place on April 29<sup>th</sup> and 30<sup>th</sup>, 2024, at the
+                                scheduled to take place on May 08<sup>th</sup> and 09<sup>th</sup>, 2024, at the
                                 prestigious AJIET Campus.
                                 <br><br>AJIET AAKAR-2024 promises to be an extraordinary platform for students to showcase
                                 their technical and cultural talents. Participants will have the opportunity to receive

@@ -178,7 +178,7 @@
                                         <option selected disabled>Select Event</option>
                                         @foreach ($events as $event)
                                             {{-- 48 is the id for the band pass. used to highlight only the band pass --}}
-                                            @if ($event->eventType->type != 'Mega Events' && $event->eventType->type != 'Gaming Events' && $event->id != '48')
+                                            @if ($event->eventType->type != 'Mega' && $event->eventType->type != 'Gaming' && $event->id != '48')
                                                 <option class="eventlist"
                                                     @if (old('events')) {{ in_array($event->id, old('events')) ? 'selected' : '' }} @endif
                                                     value="{{ $event->id }}">{{ $event->name }}</option>
@@ -205,7 +205,7 @@
                                         multiple="multiple">
                                         <option class="unselectable" disabled>Select Event</option>
                                         @foreach ($events as $event)
-                                            @if ($event->eventType->type != 'Mega Events' && $event->eventType->type != 'Gaming Events' && $event->id != '48')
+                                            @if ($event->eventType->type != 'Mega' && $event->eventType->type != 'Gaming' && $event->id != '48')
                                                 <option class="eventlist"
                                                     @if (old('events')) {{ in_array($event->id, old('events')) ? 'selected' : '' }} @endif
                                                     value="{{ $event->id }}">{{ $event->name }}
@@ -230,7 +230,7 @@
                                         multiple="multiple">
                                         <option class="unselectable" selected disabled>Select Event</option>
                                         @foreach ($events as $event)
-                                            @if ($event->eventType->type != 'Mega Events' && $event->eventType->type != 'Gaming Events' && $event->id != '48')
+                                            @if ($event->eventType->type != 'Mega' && $event->eventType->type != 'Gaming' && $event->id != '48')
                                                 <option class="eventlist"
                                                     @if (old('events')) {{ in_array($event->id, old('events')) ? 'selected' : '' }} @endif
                                                     value="{{ $event->id }}">{{ $event->name }}
@@ -255,7 +255,7 @@
                                         multiple="multiple" onchange="changeFunc()">
                                         <option class="unselectable" disabled>Select Event</option>
                                         @foreach ($events as $event)
-                                            @if ($event->eventType->type == 'Mega' || $event->eventType->type == 'Gaming Events')
+                                            @if ($event->eventType->type == 'Mega' || $event->eventType->type == 'Gaming')
                                                 <option
                                                     @if (old('events')) {{ in_array($event->id, old('events')) ? 'selected' : '' }} @endif
                                                     value="{{ $event->id }}">{{ $event->name }}

@@ -19,7 +19,7 @@
                     <h2 class="event-heading">Mega Events</h2>
                     <ul class="events-grid">
                         @foreach ($events as $event)
-                            @if ($event->event_type_id == 3)
+                            @if ($event->eventType->type == 'Mega')
                                 <li class="grid-item" data-scroll data-scroll-speed="-0.5">
 
 
@@ -54,10 +54,11 @@
                         @endforeach
                     </ul>
 
+                    <hr>
                     <h2 class="event-heading">General Events</h2>
                     <ul class="events-grid">
                         @foreach ($events as $event)
-                            @if ($event->event_type_id == 1)
+                            @if ($event->eventType->type == 'General')
                                 <li class="grid-item" data-scroll data-scroll-speed="-0.5">
 
 
@@ -91,10 +92,11 @@
                             @endif
                         @endforeach
                     </ul>
+                    <hr>
                     <h2 class="event-heading">Gaming Events</h2>
                     <ul class="events-grid">
                         @foreach ($events as $event)
-                            @if ($event->event_type_id != 6 && $event->event_type_id != 8)
+                            @if ($event->eventType->type == 'Gaming')
                                 <li class="grid-item" data-scroll data-scroll-speed="-0.5">
 
 
@@ -129,7 +131,6 @@
                             @endif
                         @endforeach
                     </ul>
-                    <hr>
                 </div>
             </div>
         </div>

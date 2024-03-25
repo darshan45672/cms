@@ -23,9 +23,17 @@
                                 colors="primary:#ffffff,secondary:#ffffff"
                                 style="width:10rem;height:10rem;border:0.4rem solid #ffffff;border-radius:5rem">
                             </lord-icon>
-                            <h5 class="my-3 text-white">{{ Auth::user()->name }}</h5>
+                            <h4 class="my-3 text-white">{{ Auth::user()->name }}</h4>
+                            {{-- <p class="text-white mb-4">{{ Auth::user()->phone }}</p> --}}
+                            @if (Auth::user()->is_paid)
+                                                <div class="active text-white "> Payment has been Verified <i class="far fa-check-circle text-white"></i>
+                                                </div>
+                                            @else
+                                                <div class="inactive text-white"> Not Verified Yet <i class="far fa-times-circle text-white"></i>
+                                                </div>
+                                            @endif
                             <p class="text-white mb-4">{{ Auth::user()->uid }}</p>
-                            <p class="text-white mb-4">{{ Auth::user()->transaction_id }}</p>
+                            {{-- <p class="text-white mb-4">{{ Auth::user()->transaction_id }}</p> --}}
                         </div>
                     </div>
                     <div class="card mb-4 mb-lg-0 shadow-lg  profile-box">
