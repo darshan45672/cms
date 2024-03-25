@@ -255,7 +255,7 @@
                                         multiple="multiple" onchange="changeFunc()">
                                         <option class="unselectable" disabled>Select Event</option>
                                         @foreach ($events as $event)
-                                            @if ($event->eventType->type == 'Mega Events' || $event->eventType->type == 'Gaming Events')
+                                            @if ($event->eventType->type == 'Mega' || $event->eventType->type == 'Gaming Events')
                                                 <option
                                                     @if (old('events')) {{ in_array($event->id, old('events')) ? 'selected' : '' }} @endif
                                                     value="{{ $event->id }}">{{ $event->name }}
