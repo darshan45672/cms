@@ -1,8 +1,8 @@
 @extends('layouts.front')
 
 @section('content')
-<div><h1>jai<br> shree ram</h1></div>
-<header class="{{ $headerClass=" video" }}">
+{{-- <div><h1>jai<br> shree ram</h1></div> --}}
+<header class="{{ $headerClass=" video" }} mt-4">
 
   <!-- This div is  intentionally blank. It creates the transparent black overlay over the video which you can modify in the CSS -->
   <div class="overlay"></div>
